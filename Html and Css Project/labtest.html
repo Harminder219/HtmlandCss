@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="labtest.css">
+</head>
+<body>
+     
+    <div class="container">
+           
+        <div class="section1">
+            
+            <form type="submit">
+
+                <div class="contactdetails">
+
+                    <h2>1. Your Contact Details</h2>
+
+                    <div class="subsection">
+
+                        <input name="fullname"  placeholder="Full Name" required>
+                        <input name="patientid"  placeholder="Patient id if exists" >
+                        <input name="contactnumber" placeholder="Contact Number" required>
+                        <input name="emailid" placeholder="Email id" required>
+
+                    </div>
+
+                </div>
+
+                <div class="address">
+
+                    <h2>2. Address</h2>
+
+                    <div class="subsection">
+
+                        <input name="houseno"  placeholder="H-No" required>
+                        <input name="street"  placeholder="Street" >
+                        <input name="area" placeholder="Area" required>
+
+                        <h3 style="margin: 3rem 0 2rem 0;">District</h3>
+                    
+                        <select class="myoption"  value="option" required>
+                             <option value="Central Delhi">Central Delhi</option>
+                             <option value="Central Delhi">North Delhi</option>
+                             <option value="Central Delhi">South Delhi</option>
+                             <option value="Central Delhi">East Delhi</option>
+                             <option value="Central Delhi">North East Delhi</option>
+    
+                        </select>
+        
+
+                    </div>
+
+                  
+
+                </div>
+
+
+                
+                <div class="testtype">
+
+                    <h2 style="position: relative ; margin-bottom: 2rem;" class="test">3. Choose the Test Type </h2>
+
+                    <label for="cbc">
+                        <input type="checkbox" name="cbc" checked >
+                        CBC
+                    </label>
+
+                    <label for="completeurine">
+                        <input type="checkbox" name="completeurine">
+                        Complete Urine
+                    </label>
+
+                    <label for="lipidprofile">
+                        <input type="checkbox" name="lipidprofile">
+                        Lipid Profile
+                    </label>
+                    
+                    <label for="tsh">
+                        <input type="checkbox" name="tsh">
+                        Thyroid Stimulating Hormone(TSH)
+                    </label>
+
+                    <label for="glucosetest">
+                        <input type="checkbox" name="glucosetest">
+                        Glucose Test
+                    </label>
+                    
+                    
+                    
+                   
+
+                </div>
+
+                <div class="hardcopy">
+
+                    <h2>4. Do you want a hard copy of the report also ?</h2>
+
+                    <label for="res">
+                        <input type="radio" name="res" checked>
+                        Yes
+                    </label>
+
+                    <label for="res">
+                        <input type="radio" name="res">
+                        No
+                    </label>
+
+                </div>
+
+
+                <div class="datetime">
+
+                    <h2>5. Select Your Comfortable Date and Time</h2>
+
+                    <label style="font-weight: bold; display:block ; margin:20px 0 10px 0;" for="date">Date</label>
+                    <input  type="date" name="date" checked>
+                     
+                    <label style="font-weight: bold; display:block ;  margin: 20px 0 10px 0;" for="time">Time</label>
+                    <input type="time" name="time">
+                </div>
+                
+                <div class="buttoncontainer">
+                    <button style="background-color:yellow; " type="reset">Reset</button>
+                    <button style="background-color: rgb(84, 224, 84);" type="submit">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="section2">
+           <img src="Images/Lab-Test/lab-test.jpg">
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
